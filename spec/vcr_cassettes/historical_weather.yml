@@ -1,0 +1,81 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://dataservice.accuweather.com/currentconditions/v1/294021/historical/24?apikey=pGMAoAmOEJKVxt7e5gLEaspMongJ5UFK
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 14 Jan 2023 14:10:09 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '11806'
+      Connection:
+      - keep-alive
+      Server:
+      - Microsoft-IIS/10.0
+      Ratelimit-Limit:
+      - '50'
+      Ratelimit-Remaining:
+      - '45'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, PUT, POST, DELETE
+      Access-Control-Allow-Headers:
+      - origin, x-requested-with, accept
+      Access-Control-Max-Age:
+      - '3628800'
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=583
+      Expires:
+      - Sat, 14 Jan 2023 14:19:52 GMT
+      Akamai-Grn:
+      - 0.4cdeda17.1673705409.b8708424
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - deflate;q=0.6
+      - gzip;q=1.0
+      - identity;q=0.3
+      Host:
+      - api.accuweather.com
+      User-Agent:
+      - Ruby
+      X-Forwarded-For:
+      - 91.105.156.66
+      X-Forwarded-Port:
+      - '80'
+      X-Forwarded-Proto:
+      - http
+    body:
+      encoding: UTF-8
+      string: '[{"LocalObservationDateTime":"2023-01-14T17:04:00+03:00","EpochTime":1673705040,"WeatherText":"Light
+        snow","WeatherIcon":19,"HasPrecipitation":true,"PrecipitationType":"Snow","IsDayTime":false,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T15:57:00+03:00","EpochTime":1673701020,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T14:53:00+03:00","EpochTime":1673697180,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T13:58:00+03:00","EpochTime":1673693880,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T13:04:00+03:00","EpochTime":1673690640,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T12:04:00+03:00","EpochTime":1673687040,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T10:53:00+03:00","EpochTime":1673682780,"WeatherText":"Light
+        freezing drizzle","WeatherIcon":26,"HasPrecipitation":true,"PrecipitationType":"Ice","IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T09:58:00+03:00","EpochTime":1673679480,"WeatherText":"Freezing
+        rain","WeatherIcon":26,"HasPrecipitation":true,"PrecipitationType":"Ice","IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T08:58:00+03:00","EpochTime":1673675880,"WeatherText":"Light
+        snow","WeatherIcon":19,"HasPrecipitation":true,"PrecipitationType":"Snow","IsDayTime":true,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T07:57:00+03:00","EpochTime":1673672220,"WeatherText":"Light
+        snow","WeatherIcon":19,"HasPrecipitation":true,"PrecipitationType":"Snow","IsDayTime":false,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T06:58:00+03:00","EpochTime":1673668680,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T05:58:00+03:00","EpochTime":1673665080,"WeatherText":"Light
+        snow","WeatherIcon":19,"HasPrecipitation":true,"PrecipitationType":"Snow","IsDayTime":false,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T04:58:00+03:00","EpochTime":1673661480,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-2.8,"Unit":"C","UnitType":17},"Imperial":{"Value":27.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T03:58:00+03:00","EpochTime":1673657880,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":25.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T02:57:00+03:00","EpochTime":1673654220,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":25.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T01:58:00+03:00","EpochTime":1673650680,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":25.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T00:58:00+03:00","EpochTime":1673647080,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":25.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-14T00:05:00+03:00","EpochTime":1673643900,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-3.9,"Unit":"C","UnitType":17},"Imperial":{"Value":25.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-13T23:04:00+03:00","EpochTime":1673640240,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":23.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-13T22:04:00+03:00","EpochTime":1673636640,"WeatherText":"Cloudy","WeatherIcon":7,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":23.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-13T20:58:00+03:00","EpochTime":1673632680,"WeatherText":"Mostly
+        cloudy","WeatherIcon":38,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":23.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-13T19:58:00+03:00","EpochTime":1673629080,"WeatherText":"Mostly
+        cloudy","WeatherIcon":38,"HasPrecipitation":false,"PrecipitationType":null,"IsDayTime":false,"Temperature":{"Metric":{"Value":-5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":23.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-13T18:55:00+03:00","EpochTime":1673625300,"WeatherText":"Light
+        snow","WeatherIcon":19,"HasPrecipitation":true,"PrecipitationType":"Snow","IsDayTime":false,"Temperature":{"Metric":{"Value":-5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":23.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"},{"LocalObservationDateTime":"2023-01-13T18:05:00+03:00","EpochTime":1673622300,"WeatherText":"Light
+        snow","WeatherIcon":19,"HasPrecipitation":true,"PrecipitationType":"Snow","IsDayTime":false,"Temperature":{"Metric":{"Value":-5.0,"Unit":"C","UnitType":17},"Imperial":{"Value":23.0,"Unit":"F","UnitType":18}},"MobileLink":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us","Link":"http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"}]'
+  recorded_at: Sat, 14 Jan 2023 14:10:09 GMT
+recorded_with: VCR 6.1.0
